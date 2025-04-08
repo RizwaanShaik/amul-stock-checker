@@ -4,6 +4,7 @@ import boto3
 sns = boto3.client("sns", region_name="ap-south-1")
 # Product IDs we care about
 target_ids = {
+    "6707b8bbc52548002b77284c", #testing
     "66bcad006760c5002bc81922", #amul-high-protein-plain-lassi-200-ml-or-pack-of-30
     "651d0a21e8ac81a61d2d1a74"  #amul-high-protein-rose-lassi-200-ml-or-pack-of-30
 }
