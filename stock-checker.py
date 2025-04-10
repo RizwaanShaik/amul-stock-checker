@@ -82,8 +82,8 @@ except Exception as e:
     sns = None # Set sns to None if initialization fails
 
 # Debug output (optional - can be removed)
-print("Request URL:", response.request.url) # Print the exact request URL
-print("Status Code:", response.status_code)
+#print("Request URL:", response.request.url) # Print the exact request URL
+#print("Status Code:", response.status_code)
 # print("Raw Response:", response.text) # Commented out raw response
 
 # Extract and process data with error handling
